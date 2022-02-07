@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
 import { ActiveLink } from "../ActiveLink";
 
 import { SignInButton } from "../SignInButton";
@@ -15,7 +13,7 @@ export function Header() {
             <a>Home</a>
           </ActiveLink>
 
-          <ActiveLink activeClassName={styles.active} href="/post">
+          <ActiveLink activeClassName={styles.active} href="/posts">
             <a>Post</a>
           </ActiveLink>
         </nav>
